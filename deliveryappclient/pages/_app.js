@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
       <title>Delivery App</title>
+      <link ref="icon" href="/favicon.icon" />
     </Head>
     
     <main>
