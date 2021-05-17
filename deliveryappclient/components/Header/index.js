@@ -21,7 +21,7 @@ export default function Header() {
                 </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-            <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-center'>
+            <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end'>
                 <SearchBox />
             </Navbar.Collapse>
         </Navbar>
