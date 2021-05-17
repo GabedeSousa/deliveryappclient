@@ -1,6 +1,7 @@
 import { Navbar } from 'react-bootstrap';
 import Image from 'next/Image';
 import Link from 'next/link';
+import SearchBox from '../SearchBox';
 
 
 export default function Header() {
@@ -19,6 +20,10 @@ export default function Header() {
                     </a>
                 </Link>
             </Navbar.Brand>
+            <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+            <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-center'>
+                <SearchBox />
+            </Navbar.Collapse>
         </Navbar>
     )
 }
