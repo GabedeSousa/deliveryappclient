@@ -3,8 +3,8 @@ import { recoilPersist } from 'recoil-persist';
 
 const { persistAtom } = recoilPersist();
 
-const adressState = atom({
-    key: 'adressState',
+const addressState = atom({
+    key: 'addressState',
         default: {
             city: '',
             neighborhood: '',
@@ -15,4 +15,4 @@ const adressState = atom({
             effects_UNSTABLE: [persistAtom]
 });
 
-export default adressState;
+export default addressState;
