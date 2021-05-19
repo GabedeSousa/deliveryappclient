@@ -24,7 +24,7 @@ export default function AddressModal(props){
             keyboard={false}
         >
             <Modal.Header>
-                <h5>Endereço de entrega.</h5>
+                <h5 className='fw-bold mt-2'>Endereço de entrega.</h5>
             </Modal.Header>
             <Modal.Body>
                 <FormAddress 
